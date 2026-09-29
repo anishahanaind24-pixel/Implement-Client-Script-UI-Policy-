@@ -104,6 +104,7 @@ g_form.getValue('assigned_to') == ''
 
 When both conditions are true, the script displays an error and returns false, preventing submission.
 
+<img width="1365" height="561" alt="tc1 mandatory" src="https://github.com/user-attachments/assets/75b215f7-8e06-4f6e-81ef-bdb699e391cb" />
 
 
 ---
@@ -149,7 +150,7 @@ The test should also verify the other High Impact behaviors:
 
 The project document specifically identifies successful saving after providing Assigned To as one of the testing scenarios.
 
-
+<img width="1365" height="606" alt="tc2" src="https://github.com/user-attachments/assets/d9060a11-a800-4666-ac58-c037d4aa8da6" />
 
 ---
 
@@ -201,6 +202,7 @@ Urgency set to High for High impact incident.
 
 The source document specifies this behavior for the OnChange Client Script.
 
+<img width="1365" height="606" alt="tc2" src="https://github.com/user-attachments/assets/d58329cb-472d-4907-8dfe-67cc73794a73" />
 
 
 ---
@@ -246,6 +248,7 @@ When Impact is changed from High to Medium:
 
 The source document specifically defines this reverse-condition scenario.
 
+<img width="1365" height="603" alt="tc4" src="https://github.com/user-attachments/assets/9d089476-0329-4ee3-b9bd-1a6da218ca39" />
 
 
 ---
@@ -296,6 +299,7 @@ callback(false);
 
 to prevent the list-edit operation.
 
+<img width="1365" height="675" alt="tc5" src="https://github.com/user-attachments/assets/895445c9-d6d1-4c25-8d0d-f2b8361dbe30" />
 
 
 ---
@@ -334,6 +338,15 @@ The State should be successfully updated through the Incident form.
 
 The list-edit restriction should apply specifically to direct list editing and should not prevent a normal form-based update.
 
+Incident form before the State change
+
+<img width="1365" height="623" alt="tc6 1" src="https://github.com/user-attachments/assets/17d8ea01-7be8-488e-a6fd-5bac39a33641" />
+
+State changed on the form
+
+<img width="1364" height="596" alt="tc 6 2" src="https://github.com/user-attachments/assets/e1a0fa12-f7fc-4caa-87b3-d6017a223e94" />
+
+<img width="1365" height="601" alt="tc6 3" src="https://github.com/user-attachments/assets/1ce35f6d-f43a-4f21-9275-da35c2ff86f9" />
 
 
 ---
